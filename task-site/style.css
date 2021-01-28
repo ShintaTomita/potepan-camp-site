@@ -1,0 +1,705 @@
+boby {
+ font-family: 'Lato', sans-serif;
+}
+body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4, h5, h6, form, select {
+    margin: 0;
+    padding: 0;
+}
+li {
+ list-style: none;
+}
+header {
+  width: 100%;
+  position: absolute;
+ 
+}
+.header-logo:hover {
+  opacity: 0.8;
+}
+.header-button:hover {
+  opacity: 0.8;
+}
+.link-button:hover {
+  opacity: 0.8;
+}
+.about-button:hover {
+  opacity: 0.8;
+}
+.student:hover img{
+ transform: scale(1.2,1.2);
+
+ 
+}
+.student:hover .student-text {
+  color: #f79314;
+}
+.operation:hover img {
+  transform: scale(1.2,1.2);
+}
+
+.operation:hover .operation-text {
+  color: #f79314;
+}
+.container{
+  width: 1140px;
+  padding: 20px 50px;
+  margin: auto;
+ 
+}
+.header-logo {
+  float: left;
+  margin-right: 110px;
+}
+.header-logo img {
+  height: 20px;
+  vertical-align: middle;
+}
+
+
+.contents-list {
+  display: flex;
+  justify-content: space-between;
+  align-item: center;
+}
+.contents-list li {
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 30px
+}
+.header-list span {
+  display: block;
+  text-align: center;
+  
+}
+.list-link {
+  color: #222;
+  text-decoration: none;
+}
+.header-button {
+   width: 150px;
+   
+}
+.list-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-color: #f79314;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+}
+.top-wrapper {
+    padding: 190px 0 30px 0;
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero.png);
+    background-size: auto 100%;
+    background-position: right 0;
+    background-repeat: no-repeat;
+    height: 386px;
+}
+.logo1 {
+  width: 337px;
+  height: auto;
+  position: relative;
+}
+.no1-icon {
+  position: absolute;
+  top: 200px;
+  left: 520px;
+  width: 154px;
+  height: 154px;
+}
+.link-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-color: #f79314;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    width: 337px;
+    height: 60px;
+    font-size: 16px;
+}
+.top-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.7;
+  padding-bottom: 30px;
+}
+.top-title span {
+  color: #f79314;
+}
+.top-text {
+  color: #888888;
+  padding-top: 132px;
+  line-height: 1.5;
+  
+}
+.top-text p {
+  font-size: 10px;
+}
+.second-contents {
+  height: 410px;
+  background-color: #f79414;
+  padding: 45px 0 80px 0;
+  position: relative;
+  
+}
+.school-service {
+  margin-bottom: 50px;
+}
+.school-service img {
+  width: 1040px;
+  height: 187px;
+}
+.about {
+  width: 551px;
+}
+.about h2 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.about span {
+  font-size: 50px;
+  font-weight: 900px;
+}
+.about   p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 2.3;
+  color: #fff;
+}
+.about-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    width: 337px;
+    height: 60px;
+    position: absolute;
+    right: 240px;
+    bottom:100px;
+    text-decoration: none;
+    color: #f79314;
+}
+.about-button span {
+  display: block;
+  text-align: center;
+  display: block;
+  color: #f79314;
+  font-size: 20px;
+}
+
+.contents-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+.contents-title h2 {
+  font-size: 46px;
+  
+}
+.contents-title p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+ 
+}
+.line {
+  border-bottom: solid 6px #f79314;
+  width: 50px;
+  text-align: center;
+}
+.third-main {
+  background-color: #fff;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  height: auto;
+  
+}
+ 
+  
+
+.list-no  {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -90px 0px -100px 510px;
+  background-color: #fcfaf5;
+  border-radius: 50%;
+  color: #f79314;
+  font-weight:bold;
+  font-size: 40px;
+  }
+
+.list-title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 90px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.list-text {
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  line-height: 2;
+  margin-top: 30px;
+}
+
+.list-number {
+  background-color: #fcfaf5;
+  border-radius: 20px;
+  text-align: center;
+  padding: 40px 0 40px 0;
+}
+.example {
+  background-color: #fff;
+  margin: 40px;
+  border-radius: 20px;
+}
+.example-title {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 24px;
+  vertical-align: bottom;
+  line-height: 1;
+  border-bottom: solid 4px #f79314;
+  margin-top: 10px;
+}
+.example-title h4 {
+  margin-bottom: 10px;
+}
+.example-img {
+  margin-left: 10px;
+  width: 34px;
+  height: auto;
+}
+.example-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.example-list li {
+  width: 25%;
+}
+
+.list-text span {
+  color: #f79314;
+  font-size: 20px;
+  font-weight: bold;
+}
+.gurahu {
+  width: 180px;
+  height: 180px;
+  padding: 0 80px;
+}
+.engineer  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.engineer-list {
+ background-color: #fff;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px;
+ margin: 20px;
+ font-weight: bold;
+ width: 300px;
+ height: 360px;
+}
+.engineer-logo {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.engineer-profile {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.engineer-profile p  {
+  margin-left: 15px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.engineer-profile span {
+  color: #f79314;
+  font-size: 14px;
+}
+.engineer-text {
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 260px;
+    padding: 20px;
+    height: 100px;
+    position: relative;
+}
+.engineer-text::before {
+    content: '';
+    position: absolute;
+    top: -25px;
+    left: 29px;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-bottom: 15px solid #f6f6f6;
+}
+.engineer-text p {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+}
+.select-course {
+  background-color: #f6f6f6;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  overflow: hidden;
+  z-index: 1;
+}
+.select-title {
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/bg-section-top-course.png);
+  background-size: 281px 275px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 50px) top;
+  background-position-x: calc(100% - 60px);
+  background-position-y: 5%;
+}
+
+.course {
+  background-color: #fff;
+  display: flex;
+  padding: 20px;
+  margin: 30px;
+  position: relative;
+  
+  
+
+  
+  
+}
+.courses h4 {
+  font-size: 24px;
+  margin-top: 15px;
+  text-align: center;
+  
+
+}
+.course-title {
+  width: 30%;
+  margin-left: -50px;
+  margin-right: 30px;
+  border: 3px solid;
+  border-image: linear-gradient(to right, #ff6d00 0%, #f79214 100%);
+  border-image-slice: 2;
+  
+}
+.explain {
+  color: #f79314;
+}
+.detail {
+  position: absolute;
+  right: 35px;
+  bottom: 25px;
+  font-size: 12px;
+  color: #999;
+  
+}
+.detail span {
+  color: #f79314;
+}
+.explain1 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.explain2 {
+  font-size: 16px;
+  color: #f75307;
+  font-weight: bold;
+}
+.condition {
+  display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    background: linear-gradient(
+90deg
+, #212121, #444);
+    padding: 2px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.condition1 {
+ color: #222222;
+}
+.condition1 span {
+  color: #f79314;
+}
+.courses a {
+  color: #222;
+  text-decoration: none;
+}
+.courses-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+
+.course-button span {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+.courses-button span:first-child {
+  font-size: 20px;
+}
+.service {
+  background-color: #fcfaf5;
+  padding-bottom: 80px;
+}
+.message-title {
+  display: inline-block;
+  font-size: 50px;
+  color: #ff802c;
+  background: webkit-linear-garadient(#ff802c #f79314);
+  line-height: 1;
+  letter-spacing: 3px;
+  margin-left: 20px;
+  position: relative;
+  z-index: 1;
+}
+.message {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-top: -20px;
+}
+.message-text {
+  background-color: #fff;
+  padding: 40px 150px 40px 40px;
+  margin-right: -100px;
+}
+.message-text p {
+  line-height: 2;
+  font-weight: 500;
+}
+.message-text p + p{
+  margin-top: 40px;
+}
+.message-img {
+  position: relative;
+}
+.message-img p {
+  position: absolute;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 10px;
+}
+.message-img span {
+  font-size: 24px;
+}
+.students-content {
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.students {
+  display:flex;
+  overflow: hidden;
+}
+.student {
+  padding-left: 20px;
+  padding-right: 40px;
+  width: calc(100% / 3);
+}
+.student-logo {
+  position: relative;
+  overflow: hidden;
+  
+}
+.student-logo img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  
+}
+.about-student {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  color: #fff;
+  padding: 80px 20px 15px 20px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 55%, rgba(30, 30, 30, 0.7), rgba(50, 50, 50, 0));
+}
+.course-name {
+  color: #f79314;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 4px;
+}
+.course-naem p {
+margin-bottom: 5px;
+}
+.about-student span {
+  
+  font-size:16px;
+  font-weight: bold;
+}
+.about-student span:last-child {
+  font-size: 12px;
+  margin-left: 15px;
+}
+.student-text {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+  line-height: 1.5;
+}
+.student a {
+  text-decoration: none;
+  color: #222;
+}
+
+.operations {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.operation {
+  padding-right: 20px;
+  padding-left: 20px;
+  width: calc(100% / 3);
+  overflow: hidden;
+}
+.operation-logo img {
+  width: 264px;
+  height: 84px;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+
+.operation-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 0 20px;
+    height: 190px;
+} 
+.op-logo1 {
+  border-color: #f79314;
+}
+.operation-text  {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.8;
+}
+.op-logo2 {
+  border-color: #08af77;
+}
+.op-logo3 {
+  border-color: #000;
+}
+.operation a {
+  text-decoration: none;
+  color: #222;
+}
+footer {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-color: #f79314;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.footer-list img {
+  width: 280px;
+  height: 30px;
+}
+.footer-list {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.company-name {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.sns-logo img {
+  width: 60px;
+  height: 60px;
+  padding-right: 20px;
+}
+.sns-logo {
+  display: flex;
+  margin-top: 35px;
+}
+.footer-menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.footer-menu-list li {
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer-menu-list span {
+  font-weight: normal;
+  margin-left: 1em;
+  
+}
+.footer-menu-list a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-logo img {
+  width: auto;
+  height: 70px;
+}
+.footer-logo {
+  align-self: flex-end;
+}
+.copyright {
+  font-size: 12px;
+  color: #fff;
+  
+}
